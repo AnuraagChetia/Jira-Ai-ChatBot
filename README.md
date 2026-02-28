@@ -56,7 +56,7 @@ docker run -p 6333:6333 qdrant/qdrant
 ```
 Qdrant will be available at:
 
-http://localhost:6333
+http://localhost:6333/dashboard
 
 # 2. Install and Setup Ollama
 
