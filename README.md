@@ -81,11 +81,12 @@ Inside the project directory:
 npm install
 ```
 # 4. Create Qdrant Collection
-Start Qdrant container and run the ingestor script
+Start Qdrant container and run the ingestor script. Be sure to keep the sample csv file inside the server folder.
 ```bash
 docker run -p 6333:6333 qdrant/qdrant
 node ingestJiraToQdrant.mjs
 ```
+Check Qdrant dashboard if the collection was created properly.
 # 6. Start the Server and Client
 ## For Server:
 ```bash
