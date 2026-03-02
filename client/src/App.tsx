@@ -11,7 +11,8 @@ const App: React.FC = () => {
     {
       id: 0,
       role: "assistant",
-      content: "Hi, I am your Jira assistant. Ask me about the recent sprints.",
+      content:
+        "Hi, I am your Shrek as your Jira assistant. Ask me about the recent sprints.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -107,7 +108,7 @@ const App: React.FC = () => {
     <div className="app">
       <div className="chat-container">
         <header className="chat-header">
-          <h1>Enterprise Jira Assistant</h1>
+          <h1>Shrek Jira Assistant</h1>
           <p className="chat-subtitle">Prototype using dummy sprint data</p>
         </header>
         <div className="chat-messages">

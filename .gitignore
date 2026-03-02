@@ -3,3 +3,4 @@ server/node_modules
 server/ingest_jira_to_qdrant.py
 server/GFG_FINAL.csv
 server/serverrr.js
+server/testScript.js
